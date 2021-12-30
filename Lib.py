@@ -6,7 +6,7 @@ def detailBook(bn): #fun1
     for i in mBooks:
             for j in i:
                 if bn == j :
-                    print("Book Name and Author name: ",i[0])
+                    print("Book Name and Author name: ",i[1])
                     print("Book Count : ",i[2])
                     return True
     return False
